@@ -57,12 +57,11 @@ export default function App() {
           <div className="headerLayout">
             <h2>
               <Headline wobble>
-                RESPONSIVE {enabled ? "WEBGL" : "HTML"}
+                BRYANT CPU {enabled ? "PLACE" : "HTML"}
               </Headline>
             </h2>
-            <BodyCopy as="p" className="subline">
-              Progressively enhance your React website with WebGL using
-              r3f-scroll-rig, React Three Fiber and Three.js
+            <BodyCopy wobble as="p" className="subline">
+            In the realm where art and innovation converge, I stand as the architect transforming visionary concepts into interactive tapestries for the digital age.
             </BodyCopy>
           </div>
         </header>
