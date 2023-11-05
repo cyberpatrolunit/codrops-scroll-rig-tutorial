@@ -45,7 +45,7 @@ export function Lens({ children, damping = 0.14, ...props }) {
         <meshBasicMaterial map={buffer.texture} />
       </mesh>
       <mesh
-        scale={Math.min(viewport.width, viewport.height) * 0.14}
+        scale={Math.min(viewport.width, viewport.height) * 0.15}
         ref={ref}
         rotation-x={Math.PI / 2}
         geometry={nodes.Cylinder.geometry}
@@ -56,10 +56,10 @@ export function Lens({ children, damping = 0.14, ...props }) {
           ior={1.14}
           thickness={1.4}
           anisotropy={0.14}
-          chromaticAberration={0.14}
+          chromaticAberration={0.15}
           distortion={0.14}
           distortionScale={1.4}
-          temporalDistortion={0.14}
+          temporalDistortion={1.14}
         />
       </mesh>
     </>

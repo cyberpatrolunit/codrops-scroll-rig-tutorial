@@ -219,12 +219,21 @@ p {
 }
 .aspect-16_11 {
   aspect-ratio: 16/11;
-  width: 50%;
+  width: 60%;
 }
 .aspect-9_13 {
   aspect-ratio: 9/13;
   width: 18%;
   margin: auto;
+}
+.aspect-16_12 {
+  aspect-ratio: 16/12;
+  width: 58%;
+  margin: auto;
+}
+.aspect-9_12 {
+  aspect-ratio: 9/12;
+  width: 10%;
 }
 
 img {

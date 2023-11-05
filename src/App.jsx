@@ -67,16 +67,16 @@ export default function App() {
         </header>
         <section className="container">
           <Image
-            src="images/maxim-berg-1_U2RcHnSjc-unsplash.jpg"
+            src="images/Kassem El Solh - RMW01575-ARW.jpg"
             className="ImageLandscape"
           />
         </section>
         <section className="container">
           <h3>
-            <Subtitle>We use CSS to create a responsive layout.</Subtitle>
+            <Subtitle>Spearheaded the ‘X’ sculpture project for Adriatique,</Subtitle>
             <em>
               <Subtitle>
-                A Canvas on top tracks DOM elements and enhance them with WebGL.
+              blending electronic music with a dynamic physical art form.
               </Subtitle>
             </em>
           </h3>
@@ -90,13 +90,25 @@ export default function App() {
         </section>
         <section className="ParallaxContainer">
           <Image
-            src="images/maxim-berg-qsDfqZyTCAE-unsplash-crop.jpg"
+            src="images/TB_Adriatique_X_SP_highres7369.jpg"
             className="aspect-9_13"
             parallaxSpeed={1.08}
           />
           <Image
-            src="images/maxim-berg-ANuuRuCRRAc-unsplash.jpg"
+            src="images/20230514_raulsanchez_Pacha_Adriatique00006.jpg"
             className="aspect-16_11"
+            parallaxSpeed={0.92}
+          />
+        </section>
+        <section className="ParallaxContainer">
+          <Image
+            src="images/20230514_raulsanchez_Pacha_Adriatique00006.jpg"
+            className="aspect-9_16"
+            parallaxSpeed={1.08}
+          />
+          <Image
+            src="images/TB_Adriatique_X_SP_highres7369.jpg"
+            className="aspect-16_9"
             parallaxSpeed={0.92}
           />
         </section>
@@ -111,7 +123,7 @@ export default function App() {
         </section>
         <section>
           <ImageCube
-            src="images/maxim-berg-TcE45yIzJA0-unsplash.jpg"
+            src="images/TB_Adriatique_X_SP_highres7514.jpg"
             className="JellyPlaceholder"
           />
         </section>
